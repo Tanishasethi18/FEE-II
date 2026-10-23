@@ -2,6 +2,96 @@
 @tailwind components;
 @tailwind utilities;
 
+:root {
+  color-scheme: light;
+  --surface: 250 249 247;
+  --surface-dim: 219 218 216;
+  --surface-bright: 250 249 247;
+  --surface-container-lowest: 255 255 255;
+  --surface-container-low: 244 243 241;
+  --surface-container: 239 238 236;
+  --surface-container-high: 233 232 230;
+  --surface-container-highest: 227 226 224;
+  --on-surface: 26 28 27;
+  --on-surface-variant: 68 71 72;
+  --inverse-surface: 47 49 48;
+  --inverse-on-surface: 241 241 239;
+  --outline: 116 120 120;
+  --outline-variant: 196 199 199;
+  --surface-tint: 95 94 94;
+  --primary: 0 0 0;
+  --on-primary: 255 255 255;
+  --primary-container: 28 27 27;
+  --on-primary-container: 133 131 131;
+  --inverse-primary: 200 198 197;
+  --secondary: 94 94 94;
+  --on-secondary: 255 255 255;
+  --secondary-container: 224 223 223;
+  --on-secondary-container: 98 99 98;
+  --tertiary: 0 0 0;
+  --on-tertiary: 255 255 255;
+  --tertiary-container: 22 31 0;
+  --on-tertiary-container: 123 138 77;
+  --error: 186 26 26;
+  --on-error: 255 255 255;
+  --error-container: 255 218 214;
+  --on-error-container: 147 0 10;
+  --primary-fixed: 229 226 225;
+  --primary-fixed-dim: 200 198 197;
+  --on-primary-fixed: 28 27 27;
+  --on-primary-fixed-variant: 71 71 70;
+  --secondary-fixed: 227 226 225;
+  --secondary-fixed-dim: 199 198 197;
+  --on-secondary-fixed: 26 28 28;
+  --on-secondary-fixed-variant: 70 71 70;
+  --tertiary-fixed: 217 234 163;
+  --tertiary-fixed-dim: 189 206 137;
+  --on-tertiary-fixed: 22 31 0;
+  --on-tertiary-fixed-variant: 62 76 22;
+  --background: 250 249 247;
+  --on-background: 26 28 27;
+  --surface-variant: 227 226 224;
+}
+
+.dark {
+  color-scheme: dark;
+  --surface: 18 19 19;
+  --surface-dim: 16 17 17;
+  --surface-bright: 57 58 57;
+  --surface-container-lowest: 13 14 14;
+  --surface-container-low: 26 27 27;
+  --surface-container: 30 31 31;
+  --surface-container-high: 40 41 41;
+  --surface-container-highest: 51 52 52;
+  --on-surface: 228 226 224;
+  --on-surface-variant: 196 199 199;
+  --inverse-surface: 228 226 224;
+  --inverse-on-surface: 47 49 48;
+  --outline: 142 146 146;
+  --outline-variant: 68 71 72;
+  --surface-tint: 200 198 197;
+  --primary: 229 226 225;
+  --on-primary: 28 27 27;
+  --primary-container: 71 71 70;
+  --on-primary-container: 229 226 225;
+  --inverse-primary: 95 94 94;
+  --secondary: 199 198 197;
+  --on-secondary: 47 49 48;
+  --secondary-container: 70 71 70;
+  --on-secondary-container: 227 226 225;
+  --tertiary: 189 206 137;
+  --on-tertiary: 22 31 0;
+  --tertiary-container: 62 76 22;
+  --on-tertiary-container: 217 234 163;
+  --error: 255 180 171;
+  --on-error: 105 0 5;
+  --error-container: 147 0 10;
+  --on-error-container: 255 218 214;
+  --background: 18 19 19;
+  --on-background: 228 226 224;
+  --surface-variant: 68 71 72;
+}
+
 .material-symbols-outlined {
   font-family: "Material Symbols Outlined";
   font-weight: normal;
@@ -27,8 +117,8 @@
 
 html,
 body {
-  background-color: #faf9f7;
-  color: #1a1c1b;
+  background-color: rgb(var(--background));
+  color: rgb(var(--on-background));
 }
 
 body {

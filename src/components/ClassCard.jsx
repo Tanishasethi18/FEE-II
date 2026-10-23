@@ -77,14 +77,14 @@ export default function ClassCard({ classItem, onReserve, isBooked = false }) {
             </Button>
           ) : isFull ? (
             <Button
-              type="button"
-              variant="secondary"
-              size="md"
-              onClick={() => onReserve?.(classItem)}
-            >
-              Join Waitlist
-            </Button>
-          ) : (
+            type="button"
+            variant="secondary"
+            size="md"
+            disabled
+          >
+        Class Full
+        </Button>
+) :   (
             <Button
               type="button"
               variant="primary"

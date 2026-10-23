@@ -153,11 +153,10 @@ export default function Home() {
       <section className="max-w-content mx-auto px-container-padding lg:px-container-padding-lg pt-12 pb-6">
         <div className="flex items-center gap-4 mb-10">
           <Avatar username={user?.username} size="lg" />
-          <div>
-            <p className="font-body text-label-sm text-on-surface-variant mb-1">
-              Welcome back
-            </p>
-            <h1 className="font-display text-headline-lg-mobile lg:text-headline-lg text-on-surface">
+          
+            <div className="min-w-0">                                   {/* was: <div> */}
+            <p className="font-body text-label-sm text-on-surface-variant mb-1">Welcome back</p>
+            <h1 className="font-display text-headline-lg-mobile lg:text-headline-lg text-on-surface break-words">
               {user?.username}
             </h1>
           </div>

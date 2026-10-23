@@ -89,6 +89,21 @@ export const classes = [
       "https://lh3.googleusercontent.com/aida-public/AB6AXuAjX1q2GsRXY2zMNTl5szRgRRFFA0JDiLYN7MZAf10w74FRHhCib3-hw_LrVnEdf0NwML6wVROoLJ4p8yZP1k3ma4oM5nOznBt3ICZuxQSjUN45FE03qfXarF72YBfYEgkGcqq-IIBxn-CNPClsSFy5EjUjgYI3R18ByH4HhM4CFOrtG60jLU8tya3sGaUdw1ObQQ3K_ZuqgSKQaDqVe9CZUr8GaUq8ky8KtiFL0I4IROxfeEYSlBbc",
     grayscale: false,
   },
+  {
+    id: "sunset-yoga",
+    title: "Sunset Yoga",
+    category: "Yoga",
+    instructor: "Sarah Williams",
+    day: "Tue",
+    time: "6:00 PM",
+    duration: "60m",
+    spotsBooked: 15,
+    spotsTotal: 20,
+    status: "open",
+    image:
+      "https://lh3.googleusercontent.com/aida-public/AB6AXuBU4OTW44b8MrAHsSJpSHT6KN0E1U9-Vn_XqM_iyVr__W_Rv7ULM9-rdN_Laoy227ooHq8Q1L9sJ-Z4sYLUMFzj7_hMM72sr4tM5WpYISUq-y1rtEuzVlS-_viO9LQ4IHzoZdHtrLvbqZwJUmLgz9ojveu1eeAsjWPWM77tz3990SMWbB6X8w-IhVeBrIc_5ca29F5SrXe6S4kqllYAnrzHSox_JmdEUCIB9JSSrYwu8avddbtp01wb",
+    grayscale: false,
+  }
 ];
 
 export const categories = ["Yoga", "HIIT", "Pilates"];

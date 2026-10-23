@@ -21,7 +21,7 @@ const Input = forwardRef(function Input(
       <input
         id={id}
         ref={ref}
-        className={`w-full bg-surface-container-low text-on-surface font-body text-body-md rounded-xl px-4 py-4 focus:outline-none focus:ring-1 focus:ring-outline placeholder:text-outline-variant transition-all border-none ${className}`}
+        className={`w-full bg-surface-container-low text-on-surface font-body text-body-md rounded-xl px-4 py-4 border border-surface-container-highest focus:outline-none focus:ring-1 focus:ring-outline placeholder:text-outline-variant transition-all ${className}`}
         {...rest}
       />
       {error && (
